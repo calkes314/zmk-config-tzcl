@@ -53,7 +53,7 @@ ZMK_UNICODE_SINGLE(sym_succeeds, N2, N2, N7, B)
         ZMK_MACRO(site_link_cut, wait-ms = <20>; tap-ms = <20>; bindings = <&kp LC(L) &kp LC(C) &kp LC(W) &kp LG(TAB) &kp LC(V)>;)
         ZMK_MACRO(ret_swap, wait-ms = <20>; tap-ms = <20>; bindings = <&kp RET &kp LG(TAB)>;)
         ZMK_MACRO(term_paste, wait-ms = <1>; tap-ms = <1>; bindings = <&kp LC(LS(V))>;)
-        ZMK_MACRO(obs_connect, wait-ms = <1>; tap-ms = <1>; bindings = <&kp MINUS &sym_precedes &sym_succeeds &kp MINUS &kp SPC>;)
+        ZMK_MACRO(obs_connect, wait-ms = <20>; tap-ms = <20>; bindings = <&sym_precedes &sym_succeeds &kp SPC>;)
         ZMK_MACRO(obs_link, wait-ms = <1>; tap-ms = <1>; bindings = <&kp LBKT &kp LBKT>;)
         ZMK_MACRO(md_hrule, wait-ms = <1>; tap-ms = <1>; bindings = <&kp MINUS &kp MINUS &kp MINUS>;)
     };
