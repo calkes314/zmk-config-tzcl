@@ -40,6 +40,8 @@ ZMK_UNICODE_SINGLE(sym_estimates, N2, N2, N5, N9)
 ZMK_UNICODE_SINGLE(sym_unequal, N2, N2, N6, N0)
 ZMK_UNICODE_SINGLE(sym_almost, N2, N2, N4, N8)
 ZMK_UNICODE_SINGLE(sym_euro, N2, N0, A, C)
+ZMK_UNICODE_SINGLE(sym_paragraph, N0, N0, A, N7)
+ZMK_UNICODE_SINGLE(sym_degree, N2, N0, B, N0)
 ZMK_UNICODE_SINGLE(en_dash, N2, N0, N1, N3)
 ZMK_UNICODE_SINGLE(em_dash, N2, N0, N1, N4)
 ZMK_UNICODE_SINGLE(sym_precedes, N2, N2, N7, A)
@@ -163,7 +165,7 @@ ZMK_UNICODE_SINGLE(sym_succeeds, N2, N2, N7, B)
         sym_layer {
             bindings = <
                 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                    &sym_euro      &kp EXCL      &kp LBKT      &kp RBKT      &sym_estimates &keyword      &sym_lozenge  &de_ue        &kp AT        &kp UNDER
+                    &sym_euro      &kp EXCL      &sym_degree  &sym_paragraph &sym_estimates &keyword      &sym_lozenge  &de_ue        &kp AT        &kp UNDER
                 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                     &de_ae         &kp MINUS     &kp PLUS      &kp EQUAL     &sym_unequal   &en_dash      &kp PRCNT     &kp LBRC      &kp RBRC      &de_oe
                 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
