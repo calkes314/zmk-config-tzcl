@@ -89,9 +89,9 @@ ZMK_UNICODE_SINGLE(sym_succeeds, N2, N2, N7, B)
         COMBO(scope, &scope, 3 13, COMBO_TIME)
         COMBO(caret, &kp CARET, 4 14, COMBO_TIME)
         COMBO(lpar, &kp LPAR, 11 12, COMBO_TIME)
-        COMBO(lbrc, &kp LBRC, 11 13, COMBO_TIME)
+        /* COMBO(lbrc, &kp LBRC, 11 13, COMBO_TIME) */
         COMBO(lbkt, &kp LBKT, 12 13, COMBO_TIME)
-        /* COMBO(..., &kp .., 13 14, COMBO_TIME) */
+        COMBO(lbrc, &kp LBRC, 13 14, COMBO_TIME) */
         COMBO(super_r, &kp LG(R), 11 21, COMBO_TIME)
         COMBO(bslash, &kp BSLH, 12 22, COMBO_TIME)
         COMBO(underscore, &kp UNDER, 13 23, COMBO_TIME)
@@ -106,9 +106,9 @@ ZMK_UNICODE_SINGLE(sym_succeeds, N2, N2, N7, B)
         COMBO(hash, &kp HASH, 6 16, COMBO_TIME)
         COMBO(semicolon, &kp SEMI, 7 17, COMBO_TIME)
         COMBO(at, &kp AT, 8 18, COMBO_TIME)
-        /* COMBO(..., &.., 15 16, COMBO_TIME) */
+        COMBO(rbrc, &kp RBRC, 15 16, COMBO_TIME)
         COMBO(rbkt, &kp RBKT, 16 17, COMBO_TIME)
-        COMBO(rbrc, &kp RBRC, 16 18, COMBO_TIME)
+        /* COMBO(rbrc, &kp RBRC, 16 18, COMBO_TIME) */
         COMBO(rpar, &kp RPAR, 17 18, COMBO_TIME)
         COMBO(ampersand, &kp AMPS, 15 25, COMBO_TIME)
         COMBO(minus, &kp MINUS, 16 26, COMBO_TIME)
