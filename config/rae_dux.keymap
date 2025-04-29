@@ -118,6 +118,9 @@ ZMK_UNICODE_SINGLE(sym_succeeds, N2, N2, N7, B)
         COMBO(caps_word, &caps_word, 26 28, COMBO_TIME)
         COMBO(colon, &kp COLON, 27 28, COMBO_TIME)
 
+        COMBO(del, &kp DEL, 30 31, COMBO_TIME)
+        COMBO(ret, &kp RET, 34 35, COMBO_TIME)
+
     };
 
     behaviors {
