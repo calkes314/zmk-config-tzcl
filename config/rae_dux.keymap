@@ -101,10 +101,10 @@ ZMK_UNICODE_SINGLE(sym_succeeds, N2, N2, N7, B)
         COMBO(switch_lang, &sl LANG_L, 21 23, COMBO_TIME)
         COMBO(toggle_game_layer, &tog GAME_L, 20 23, COMBO_TIME)
 
-        COMBO(percent, &kp PRCNT, 5 15, COMBO_TIME)
+        COMBO(dollar, &kp DLLR, 5 15, COMBO_TIME)
         COMBO(hash, &kp HASH, 6 16, COMBO_TIME)
         COMBO(semicolon, &kp SEMI, 7 17, COMBO_TIME)
-        COMBO(at, &kp AT, 8 18, COMBO_TIME)
+        COMBO(percent, &kp PRCNT, 8 18, COMBO_TIME)
         COMBO(rbrc, &kp RBRC, 15 16, COMBO_TIME)
         COMBO(rbkt, &kp RBKT, 16 17, COMBO_TIME)
         /* COMBO(rbrc, &kp RBRC, 16 18, COMBO_TIME) */
