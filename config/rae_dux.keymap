@@ -153,9 +153,9 @@ ZMK_UNICODE_SINGLE(sym_succeeds, N2, N2, N7, B)
                 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                      &kp APOS      &kp Y         &kp U         &kp L         &kp J          &kp B         &kp P         &kp F         &kp W         &kp Q
                 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                     &lhm LALT O   &lhm LGUI I   &lhm RSHFT E  &lhm LCTRL N  &kp M          &kp G         &rhm LCTRL T  &rhm LSHFT S  &rhm LGUI R   &rhm LALT A
+                     &lhm LALT O   &lhm LGUI I   &lhm RSHFT E  &lhm LCTRL N  &kp H          &kp G         &rhm LCTRL T  &rhm LSHFT S  &rhm LGUI R   &rhm LALT A
                 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                     &kp FSLH      &kp DOT       &kp COMMA     &kp H         &kp K          &kp V         &kp D         &kp C         &kp X         &kp Z
+                     &kp FSLH      &kp DOT       &kp COMMA     &kp M         &kp K          &kp V         &kp D         &kp C         &kp X         &kp Z
                 // ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤├─────────────┼─────────────┼─────────────┴───────────────────────────╯
                 /*&            &*/              &lt NAV ESC    &lt SYM SPC   &lt NUM RET    &lt NUM DEL   &lt SYM BSPC  &lt NAV TAB  /*&             &*/
                 //                             ╰─────────────┴─────────────┴─────────────╯╰─────────────┴─────────────┴─────────────╯
