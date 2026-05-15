@@ -151,11 +151,11 @@ ZMK_UNICODE_SINGLE(sym_succeeds, N2, N2, N7, B)
         base_layer {
             bindings = <
                 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-                     &kp Q         &kp W         &kp F         &kp P         &kp B          &kp J         &kp L         &kp U         &kp Y         &kp APOS
+                     &kp Q         &kp W         &kp F         &kp P         &kp G          &kp J         &kp L         &kp U         &kp Y         &kp APOS
                 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                     &lhm LALT A   &lhm LGUI R   &lhm LSHFT S  &lhm LCTRL T  &kp G          &kp M         &rhm LCTRL N  &rhm RSHFT E  &rhm LGUI I   &rhm LALT O
+                     &lhm LALT A   &lhm LGUI R   &lhm LSHFT S  &lhm LCTRL T  &kp D          &kp M         &rhm LCTRL N  &rhm RSHFT E  &rhm LGUI I   &rhm LALT O
                 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                     &kp Z         &kp X         &kp C         &kp D         &kp V          &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH
+                     &kp Z         &kp X         &kp C         &kp V         &kp B          &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH
                 // ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤├─────────────┼─────────────┼─────────────┴───────────────────────────╯
                 /*&            &*/              &lt NAV TAB   &lt SYM BSPC  &lt NUM DEL    &lt NUM RET   &lt SYM SPC   &lt NAV ESC  /*&             &*/
                 //                             ╰─────────────┴─────────────┴─────────────╯╰─────────────┴─────────────┴─────────────╯
