@@ -5,7 +5,6 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 &sk { quick-release; };
@@ -92,37 +91,37 @@
 
         base_layer {
             bindings = <
-&kp Q        &kp W        &kp F                     &kp P               &kp B               &kp J                     &kp L                 &kp U                  &kp Y        &kp SEMI
-&lhm LALT A  &lhm LGUI R  &lhm LSHFT S              &lhm LCTRL T        &kp G               &kp M                     &rhm LCTRL N          &rhm RSHFT E           &rhm LGUI I  &rhm RALT O
-&kp Z        &kp X        &kp C                     &kp D               &kp V               &kp K                     &kp H                 &kp COMMA              &kp DOT      &kp FSLH
-                          &base_lt NAV_L LA(RIGHT)  &base_lt SYM_L TAB  &base_lt NUM_L ESC  &base_lt NUM_L BACKSPACE  &base_lt SYM_L SPACE  &base_lt NAV_L ESCAPE
+&kp SEMICOLON  &kp Y        &kp U                     &kp L               &kp J               &kp J                     &kp L                 &kp U                  &kp Y        &kp SEMI
+&lhm LALT O    &lhm LGUI I  &lhm LSHFT E              &lhm LCTRL N        &kp M               &kp M                     &rhm LCTRL N          &rhm RSHFT E           &rhm LGUI I  &rhm RALT O
+&kp SLASH      &kp PERIOD   &kp COMMA                 &kp H               &kp K               &kp K                     &kp H                 &kp COMMA              &kp DOT      &kp FSLH
+                            &base_lt NAV_L LA(RIGHT)  &base_lt SYM_L TAB  &base_lt NUM_L ESC  &base_lt NUM_L BACKSPACE  &base_lt SYM_L SPACE  &base_lt NAV_L ESCAPE
             >;
         };
 
         sym_layer {
             bindings = <
-&kp NUMBER_3   &kp NUMBER_2  &kp N1             &kp NUMBER_4           &kp N5           &kp NUMBER_6       &kp N7                &kp N8      &kp N0       &kp N9
-&kp CARET      &kp ASTERISK  &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp HASH           &kp NON_US_BACKSLASH  &kp DOLLAR  &kp MINUS    &kp EXCLAMATION
-&kp AMPERSAND  &kp PERCENT   &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp EQUAL          &kp PLUS              &kp PIPE    &kp AT_SIGN  &kp QMARK
-                             &trans             &trans                 &kp UNDERSCORE   &kp LA(BACKSPACE)  &trans                &trans
+&kp N9        &kp N0     &kp N8      &kp N7         &kp NUMBER_6       &kp NUMBER_6       &kp N7                &kp N8      &kp N0       &kp N9
+&kp EXCL      &kp MINUS  &kp DOLLAR  &kp BACKSLASH  &kp HASH           &kp HASH           &kp NON_US_BACKSLASH  &kp DOLLAR  &kp MINUS    &kp EXCLAMATION
+&kp QUESTION  &kp AT     &kp PIPE    &kp PLUS       &kp EQUAL          &kp EQUAL          &kp PLUS              &kp PIPE    &kp AT_SIGN  &kp QMARK
+                         &trans      &trans         &kp LG(BACKSPACE)  &kp LA(BACKSPACE)  &trans                &trans
             >;
         };
 
         num_layer {
             bindings = <
-&kp F10               &kp F6                 &kp F5         &kp F4     &kp STAR   &kp PLUS  &kp LA(LEFT)  &kp LA(RIGHT)  &kp LG(LEFT)  &kp LG(RIGHT)
-&kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(SPACE)  &kp LG(Z)  &sk LSHFT  &kp LEFT  &kp DOWN      &kp UP         &kp RIGHT     &kp LG(RIGHT)
-&kp F12               &kp F9                 &kp F8         &kp F7     &kp COLON  &kp F1    &kp F2        &kp F3         &kp F11       &kp COMMA
-                                             &trans         &trans     &kp N0     &kp N0    &trans        &trans
+&kp LG(RIGHT)  &kp LG(LEFT)  &kp LA(RIGHT)  &kp LA(LEFT_ARROW)  &kp PLUS        &kp PLUS  &kp LA(LEFT)  &kp LA(RIGHT)  &kp LG(LEFT)  &kp LG(RIGHT)
+&kp LG(RIGHT)  &kp RIGHT     &kp UP_ARROW   &kp DOWN            &sk LEFT_ARROW  &kp LEFT  &kp DOWN      &kp UP         &kp RIGHT     &kp LG(RIGHT)
+&kp COMMA      &kp F11       &kp F3         &kp F2              &kp F1          &kp F1    &kp F2        &kp F3         &kp F11       &kp COMMA
+                             &trans         &trans              &kp N0          &kp N0    &trans        &trans
             >;
         };
 
         nav_layer {
             bindings = <
-&trans    &trans    &trans     &trans     &bt BT_CLR  &kp LS(LA(LC(NUMBER_1)))  &kp LS(LA(LC(N7)))        &kp LS(LA(LC(N8)))  &kp LS(LA(LC(NUMBER_2)))  &trans
-&sk LALT  &sk LGUI  &sk LSHFT  &sk LCTRL  &trans      &kp LS(LA(LC(N9)))        &kp LS(LA(LC(N5)))        &kp LS(LA(LC(X)))   &kp LS(LA(LC(NUMBER_4)))  &kp RIGHT
-&trans    &kp CUT   &kp COPY   &kp PASTE  &trans      &trans                    &kp LS(LA(LC(NUMBER_3)))  &kp LS(LA(LC(B)))   &kp K_NEXT                &kp END
-                    &trans     &trans     &trans      &trans                    &trans                    &trans
+&trans    &kp LC(LA(LS(NUMBER_2)))  &kp LC(LA(LS(N8)))  &kp LS(LA(LC(N7)))        &kp LC(LA(LS(NUMBER_1)))  &kp LS(LA(LC(NUMBER_1)))  &kp LS(LA(LC(N7)))        &kp LS(LA(LC(N8)))  &kp LS(LA(LC(NUMBER_2)))  &trans
+&sk LALT  &sk LC(LA(LS(NUMBER_4)))  &sk LS(LC(LA(X)))   &sk LC(LA(LS(N5)))        &kp LA(LC(LS(N9)))        &kp LS(LA(LC(N9)))        &kp LS(LA(LC(N5)))        &kp LS(LA(LC(X)))   &kp LS(LA(LC(NUMBER_4)))  &kp RIGHT
+&trans    &kp CUT                   &kp LA(LC(LS(B)))   &kp LC(LA(LS(NUMBER_3)))  &trans                    &trans                    &kp LS(LA(LC(NUMBER_3)))  &kp LS(LA(LC(B)))   &kp K_NEXT                &kp END
+                                    &trans              &trans                    &trans                    &trans                    &trans                    &trans
             >;
         };
     };
